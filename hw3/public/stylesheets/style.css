@@ -1,0 +1,23 @@
+.column {
+  float: left;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  
+}
+
+.center{
+  text-align: center;
+}
+
+.body{
+  background-color: lavenderblush;
+}
+
+.h1{
+  color: darkcyan;
+  text-align: center;
+  font-style: italic;
+}

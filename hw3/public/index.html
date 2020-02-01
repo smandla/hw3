@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+Kavya Mandla
+CS341
+HW 2
+hw2.html
+-->
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="javascripts/cheesecake.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+</head>
+
+
+<body class="body">
+
+    <section>
+        <h1 style="font-size:50px;" class="h1">Cheesecake Order Form</h1>
+
+        <div class="row">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg" width="400" height="333">
+        </div>
+
+    </section>
+
+<div id="body">
+    <section>
+        <table>
+            <tr>
+                <td>Quantity</td>
+                <td>Toppings</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="radio" name="topping" value="Plain">Plain<br><input type="radio" name="topping" value="Cherry"> Cherry<br>
+                    <input type="radio" name="gender" value="Chocolate"> Chocolate<br></td>
+
+            </tr>
+            <tr>
+                <td><select>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></td>
+            </tr>
+        </table>
+        <form action="">
+            <h3>Notes:</h3>
+            <textarea name="notes" id="notes" rows="4" cols="50"> Enter any special instructions here.
+            </textarea>
+            <div>
+                <input type="submit" value="Order" id="order" />
+            </div>
+        </form>
+
+
+
+    </section>
+
+    <h3>Orders For </h3>
+    <ul>
+        <li>11 Cherry</li>
+        <li>17 Chocolate</li>
+        <li>31 Plain</li>
+    </ul>
+
+
+</body>
+
+</html>
